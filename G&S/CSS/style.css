@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logotipo {
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 130px;
+    height: 100;
+}
+
+.cabecalho nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.cabecalho nav ul li a {
+    color: rgb(138, 136, 136);
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: .5s;
+    width: 200px;
+    text-align: center;
+
+}
+
+.cabecalho nav ul li a:hover {
+    color: black;
+    background-color: #38b6ff;
+    border-radius: 15px;
+}
+
+.drop-hover {
+    position: relative;
+}
+
+.drop-hover .icon_down {
+    display: flex;
+    align-items: initial;
+}
+
+.drop-hover .drop {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.drop-hover .drop a {
+    padding: 10px;
+}
+
+.drop-hover:hover .drop {
+    height: 150px;
+}
