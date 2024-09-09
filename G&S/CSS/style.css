@@ -41,11 +41,6 @@
     position: relative;
 }
 
-.drop-hover .icon_down {
-    display: flex;
-    align-items: initial;
-}
-
 .drop-hover .drop {
     position: absolute;
     background-color: white;
